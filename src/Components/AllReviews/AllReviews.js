@@ -1,7 +1,8 @@
+import { ArrowRightIcon, StarIcon } from '@heroicons/react/solid';
 import React from 'react';
-import { ArrowRightIcon, StarIcon } from '@heroicons/react/solid'
-const Review = (props) => {
-    const { name, picture, about, ratings } = props.product
+
+const AllReviews = (props) => {
+    const { name, picture, about, ratings, } = props.product
     return (
         <div className='h-96 border rounded-lg shadow p-3 bg-slate-50 relative'>
             <img className='w-2/6 mx-auto rounded-full ' src={picture} alt="" />
@@ -23,4 +24,4 @@ const Review = (props) => {
     );
 };
 
-export default Review;
+export default AllReviews;
