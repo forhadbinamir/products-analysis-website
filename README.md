@@ -2,7 +2,12 @@
 
 Project live link: [Review Watch App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## bullet Points 
+*1 `I added a hook in this website for multiplay page data uploading `
+*2 `I added a useNavigate for dynamicly go to anoter page ny click the button`
+*3 `I added a distucturing in the reviews page`
+*4 `I added a chart`
+*5 `I added a favicon and change the site name and edid the readME file `
 
 In the project directory, you can run:
 
