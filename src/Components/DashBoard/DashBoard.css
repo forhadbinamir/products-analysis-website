@@ -1,0 +1,11 @@
+@media screen and (max-width: 668px) {
+    .first-Chart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-Chart {
+        display: flex;
+        flex-direction: column;
+    }
+}

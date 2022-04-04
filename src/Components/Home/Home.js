@@ -29,7 +29,7 @@ const Home = () => {
                     <img src={image} alt="" />
                 </div>
             </div>
-            <h2 className='text-center text-4xl my-10 py-5'>Client Reviews</h2>
+            <h2 className='text-center font-bold text-4xl my-10 py-5'>Customer Reviews ({sliceProducts.length})</h2>
             <div className='w-10/12 mx-auto'>
                 <div className='grid lg:grid-cols-3 md:grid-cols-1 gap-16'>
                     {
